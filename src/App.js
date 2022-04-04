@@ -38,6 +38,7 @@ function App() {
   };
 
   // save to local
+  // still doesnt work :(
   const saveLocalTodos = () => {
     localStorage.setItem("todos", JSON.stringify(todos));
   };
